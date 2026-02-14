@@ -1,4 +1,5 @@
-Database of Journeys
+# Database of Journeys
+
 Journey Database is a structured learning resource that focuses on using regular daily practice to master the fundamentals of SQL and NoSQL. With an emphasis on MySQL and MongoDB at the moment, this project details my development in comprehending relational and document-based database systems.
 
 Hands-on exercises, queries, notes, and sample datasets are all included in each folder, which is arranged by day. Building a solid foundation in data modeling, CRUD operations, filtering, joins, aggregation, and query optimization is the aim.
