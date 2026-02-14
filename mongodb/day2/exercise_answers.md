@@ -9,7 +9,7 @@ Cari produk yang namanya mengandung kata "teh" (case insensitive).
 ```javascript
 db.produk.find({ nama: { $regex: /teh/i } })
 ```
-![task1][images/task1.png]
+![task1](images/task1.png)
 
 ---
 
@@ -20,7 +20,7 @@ Cari produk yang namanya dimulai dengan huruf "P" (case sensitive).
 ```javascript
 db.produk.find({ nama: { $regex: /^P/ } })
 ```
-![task1][images/task2.png]
+![task1](images/task2.png)
 
 ---
 
@@ -35,7 +35,7 @@ db.produk.createIndex({ nama: "text", tags: "text" })
 // Query
 db.produk.find({ $text: { $search: "indomie aqua" } })
 ```
-![task1][images/task3.png]
+![task1](images/task3.png)
 
 ---
 
@@ -46,16 +46,16 @@ Gunakan `$regex` untuk mencari produk yang memiliki tag yang mengandung kata "lo
 ```javascript
 db.produk.find({ tags: { $regex: /logi/i } })
 ```
-![task1][images/task4.png]
+![task1](images/task4.png)
 
 ---
 
-### Soal 5 (Sedang)
+### Soal 5 
 Gunakan `$where` untuk mencari produk yang harganya lebih besar dari 10000 dan stoknya kurang dari 10.
 
 **Jawaban:**
 ```javascript
 db.produk.find({ $where: "this.harga > 10000 && this.stok < 10" })
 ```
-![task1][images/task5.png]
+![task1](images/task5.png)
 
