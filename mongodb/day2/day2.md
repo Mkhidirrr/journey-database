@@ -2,7 +2,7 @@
 
   **Evaluation Operators**. Operator ini digunakan untuk evaluasi dokumen berdasarkan kondisi yang lebih dinamis, seperti pencocokan pola teks (`$regex`), pencarian teks penuh (`$text`), dan ekspresi JavaScript (`$where`).
 
-Kita masih pakai dataset `produk` yang sama:
+Kita masih menggunakan dataset `produk` yang sama:
 
 ---
 
