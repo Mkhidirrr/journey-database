@@ -1,0 +1,106 @@
+[{
+  "_id": 1,
+  "nama": "Indomie Goreng",
+  "harga": 3500,
+  "stok": 120,
+  "kategori": "Makanan",
+  "tags": [
+    "indomie",
+    "mie",
+    "goreng"
+  ],
+  "penjual": {
+    "nama": "Toko A",
+    "kota": "Jakarta"
+  }
+},
+{
+  "_id": 2,
+  "nama": "Pocari Sweat",
+  "harga": 7000,
+  "stok": 50,
+  "kategori": "Minuman",
+  "tags": [
+    "pocari",
+    "isotonic"
+  ],
+  "penjual": {
+    "nama": "Toko B",
+    "kota": "Bandung"
+  }
+},
+{
+  "_id": 3,
+  "nama": "Silverqueen",
+  "harga": 15000,
+  "stok": 20,
+  "kategori": "Snack",
+  "tags": [
+    "coklat",
+    "import"
+  ],
+  "penjual": {
+    "nama": "Toko A",
+    "kota": "Jakarta"
+  }
+},
+{
+  "_id": 4,
+  "nama": "Aqua",
+  "harga": 3000,
+  "stok": 200,
+  "kategori": "Minuman",
+  "tags": [
+    "air",
+    "mineral"
+  ],
+  "penjual": {
+    "nama": "Toko C",
+    "kota": "Surabaya"
+  }
+},
+{
+  "_id": 5,
+  "nama": "Laptop",
+  "harga": 5000000,
+  "stok": 5,
+  "kategori": "Elektronik",
+  "tags": [
+    "asus",
+    "laptop"
+  ],
+  "penjual": {
+    "nama": "Toko D",
+    "kota": "Jakarta"
+  }
+},
+{
+  "_id": 6,
+  "nama": "Mouse",
+  "harga": 150000,
+  "stok": 15,
+  "kategori": "Elektronik",
+  "tags": [
+    "logitech",
+    "mouse"
+  ],
+  "penjual": {
+    "nama": "Toko B",
+    "kota": "Bandung"
+  }
+},
+{
+  "_id": 7,
+  "nama": "Teh Botol",
+  "harga": 5000,
+  "stok": 80,
+  "kategori": "Minuman",
+  "tags": [
+    "teh",
+    "botol"
+  ],
+  "penjual": {
+    "nama": "Toko A",
+    "kota": "Jakarta"
+  }
+}]
