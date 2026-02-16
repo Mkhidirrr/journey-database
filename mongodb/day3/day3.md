@@ -140,7 +140,7 @@ db.produk.aggregate([
   }
 ])
 ```
-[Task 1](images/task1.png)
+![Task 1](images/task1.png)
 
 **Penjelasan:** Gunakan `$multiply` di dalam `$sum` untuk mengalikan harga dan stok per dokumen, lalu menjumlahkannya per grup.
 
@@ -152,7 +152,7 @@ db.produk.aggregate([
   { $project: { nama: 1, harga: 1, _id: 0 } }
 ])
 ```
-[Task 2](images/task2.png)
+![Task 2](images/task2.png)
 
 **Penjelasan:** Urutkan harga descending (`-1`), ambil 3 teratas, lalu proyeksi hanya field yang diminta.
 
@@ -168,7 +168,7 @@ db.produk.aggregate([
   }
 ])
 ```
-[Task 3](images/task3.png)
+![Task 3](images/task3.png)
 
 **Penjelasan:** Filter dulu produk dengan stok > 10, baru di-group.
 
@@ -185,7 +185,7 @@ db.produk.aggregate([
   { $match: { jumlahProdukMahal: { $gt: 1 } } }
 ])
 ```
-[Task 4](images/task4.png)
+![Task 4](images/task4.png)
 
 **Penjelasan:**  
 1. Filter produk dengan harga > 10000.  
