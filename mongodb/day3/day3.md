@@ -17,7 +17,7 @@ Aggregation pipeline adalah **rangkaian tahap (stages)** yang memproses dokumen 
 
 ---
 
-## ⚡ `aggregate()` vs `find()`: Kapan Pakai yang Mana?
+## ⚡ `aggregate()` vs `find()`: Kapan digunakan?
 
 | Fitur               | `find()`                                    | `aggregate()`                                |
 |---------------------|---------------------------------------------|----------------------------------------------|
@@ -31,7 +31,7 @@ Aggregation pipeline adalah **rangkaian tahap (stages)** yang memproses dokumen 
 | **Hasil**           | Dokumen mentah                               | Dokumen hasil olahan (bisa berbeda struktur) |
 
 **Kesimpulan:**  
-- Pakai `find()` kalau cuma butuh **mencari dokumen** dengan filter sederhana.  
+- Pakai `find()` kalau hanya butuh **mencari dokumen** dengan filter sederhana.  
 - Pakai `aggregate()` kalau butuh **menganalisis, mengelompokkan, menghitung agregat, atau mengubah struktur data**.
 
 ---
@@ -99,7 +99,7 @@ db.produk.aggregate([
 }
 ```
 
-### 🧮 Operator Akumulator (paling sering dipakai)
+### 🧮 Operator Akumulator
 
 | Operator   | Fungsi                             | Contoh                                |
 |------------|-------------------------------------|---------------------------------------|
